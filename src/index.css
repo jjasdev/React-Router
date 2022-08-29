@@ -11,3 +11,53 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+nav {
+  background-color:aliceblue;
+  padding: 16px 32px;
+}
+
+nav a {
+  margin-right: 16px;
+}
+
+/* nav a.active {
+  text-decoration: none;
+  font-weight: bold;
+} */
+
+h1 {
+  font-size: 4rem;
+  margin: 2rem 0
+}
+
+.Home,
+.Order,
+.About,
+.NotFound,
+.Products,
+.Users {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Products-container {
+  margin: 2rem 0 0;
+  padding:0;
+}
+
+.Products-links,
+.Products-link {
+  list-style-type: none;  
+}
+
+.Products-link {
+  padding: 1rem
+}
+
+.Users-options {
+  display: flex;
+  gap: 2rem;
+}
